@@ -41,7 +41,8 @@ def main():
   a number exists, reuturns the product of the two numbers.
   """
   if len(argv) not in [2, 3]:
-    raise ValueError
+    print('Usage: python %s input path [sum to look for]' % argv[0])
+    raise TypeError
 
   input_path = argv[1]
 
