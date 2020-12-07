@@ -46,7 +46,7 @@ def main():
   input_path = argv[1]
 
   if len(argv) == 3:
-    needed_sum = argv[2]
+    needed_sum = int(argv[2])
   else:
     needed_sum = 2020
 
